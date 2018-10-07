@@ -1,0 +1,29 @@
+Port of em to modern OS 
+(http://www.eecs.qmul.ac.uk/~gc/history/)
+
+From  http://en.wikipedia.org/wiki/Vi
+
+"Coulouris considered the cryptic commands of ed to be only suitable
+for "immortals", and thus in February, 1976, he enhanced ed (using Ken
+Thompson's ed source as a starting point) to make em (the "editor for
+mortals") while acting as a lecturer at Queen Mary College.
+
+The em editor was designed for display terminals and was a
+single-line-at-a-time visual editor. It was one of the first programs
+on Unix to make heavy use of "raw terminal input mode", in which the
+running program, rather than the terminal device driver, handled all
+keystrokes. When Coulouris visited UC Berkeley in the summer of 1976,
+he brought a DECtape containing em, and showed the editor to various
+people. Some people considered this new kind of editor to be a
+potential resource hog, but others, including Bill Joy were impressed"
+
+Inspired by em, and by their own tweaks to ed, Bill Joy and Chuck
+Haley, both graduate students at UC Berkeley, took code from em to
+make en, and then "extended" en to create ex version 0.1.
+
+I used the unix v6 manpage conveniently available from:
+* http://man.cat-v.org/unix-6th/
+to figure out what the old function did.
+
+Also useful was the v6 C reference manual:
+http://wwwlehre.dhbw-stuttgart.de/~helbig/os/v6/doc/index.html

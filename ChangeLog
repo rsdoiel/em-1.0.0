@@ -1,0 +1,11 @@
+2012-05-25  pgas  <pgas@pgas-desktop>
+
+	* src/em1.c: signal() -> sigaction()
+	* src/em1.c: reset(), setexit() -> sigsetjmp() siglongjmp() 
+	* src/em1.c: seek()  -> lseek()
+	* ttyn() == "x"  -> use isatty()
+	* src/em1.c:  =+, =| ... -> +=, |= ...
+	* src/em1.c:  add return type and argument types to function
+	* src/em1.c: add int type and = to variable definitions
+	* src/em1.c: include headers and forward declaration of the function
+	* src/em1.c: use autoconf
